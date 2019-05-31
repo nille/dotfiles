@@ -1,0 +1,3 @@
+# Start or re-use a gpg-agent.
+gpgconf --launch gpg-agent
+export SSH_AUTH_SOCK=$HOME/.gnupg/S.gpg-agent.ssh
