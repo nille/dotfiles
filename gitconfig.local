@@ -1,0 +1,23 @@
+[credential]
+        helper = osxkeychain
+[user]
+        signingkey = C91EAE7299FA132F47AF2349A3B57E268039D9A1
+        name = Nille af Ekenstam
+        email = n@nille.dev
+[core]
+        excludesfile = ~/dotfiles-local/gitignore.local
+[commit]
+        gpgsign = true
+[push]
+        default = current
+[pull]
+        default = current
+[help]
+        autocorrect = 1
+[filter "lfs"]
+        clean = git-lfs clean -- %f
+        smudge = git-lfs smudge -- %f
+        process = git-lfs filter-process
+        required = true
+
+
